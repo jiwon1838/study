@@ -1,0 +1,35 @@
+div {
+  display: inline-flex;
+  width: 200px;
+  height: 100px;
+  border: 10px solid #222;
+  box-sizing: border-box;
+}
+
+.margin1 {
+  margin: 50px;
+  padding: 20px 30px 40px 50px;
+  box-shadow: 10px -10px 50px 10px;
+}
+
+.margin2 {
+  margin: 30px 50px;
+  padding: 20px 30px;
+  box-shadow: 10px 10px 15px 5px blue;
+}
+
+.margin3 {
+  margin: 30px 20px 50px;
+  padding: 30px 20px 50px;
+  box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.5);
+}
+
+.margin4 {
+  margin: 30px 50px 30px 50px;
+  padding: 20px;
+  border-style: dotted;
+}
+
+.margin5 {
+  margin-right: 20px;
+}
