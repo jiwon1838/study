@@ -56,6 +56,7 @@
   ````
 
 ### 6.3.3 요소 속성 확인하기
+
 ```html
 <body>
   <img id="image" src="/images/레옹이.jpg" alt="img" />
@@ -72,3 +73,6 @@
   </script>
 </body>
 ```
+
+## 6.4 DOM 노드
+- DOM 트리의 가장 기본이 되는 HTML 요소, 속성, 텍스트 등은 모두 노드(node)에 속한다.
