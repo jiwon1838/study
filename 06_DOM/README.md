@@ -23,6 +23,7 @@
 ## 6.3 HTML 요소 내용과 속성
 
 ### 6.3.1 요소 내용 가져오기
+
 ```html
 <body>
   <p id="p1">
@@ -40,20 +41,20 @@
 ### 6.3.2 요소 내용 설정하기
 
 ```html
-  <body>
-    <ul>
-      <li>항목 1</li>
-      <li>항목 2</li>
-      <li></li>
-      <li></li>
-      <li></li>
-    </ul>
-    <script>
-      const x = document.querySelectorAll("li");
-      x[2].innerHTML = `<span style = "color:red">텍스트 1<span/>`;
-    </script>
-  </body>
-  ````
+<body>
+  <ul>
+    <li>항목 1</li>
+    <li>항목 2</li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+  <script>
+    const x = document.querySelectorAll("li");
+    x[2].innerHTML = `<span style = "color:red">텍스트 1<span/>`;
+  </script>
+</body>
+```
 
 ### 6.3.3 요소 속성 확인하기
 
@@ -75,4 +76,7 @@
 ```
 
 ## 6.4 DOM 노드
+
 - DOM 트리의 가장 기본이 되는 HTML 요소, 속성, 텍스트 등은 모두 노드(node)에 속한다.
+
+- 요소 노드(element node)
